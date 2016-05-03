@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My album</title>
+    <link rel="stylesheet" href="styles/main.css" charset="utf-8">
+  </head>
+  <body>
+    <div class="modal__fox modal__hide--fox" data-js="modal_fox">
+      <div class="modal__container">
+        <h1>Wolf photo</h1>
+        <button data-js="back_button" type="button" name="button">Back to Album 1</button>
+        <img data-js="fox_image"src="assets/fox.jpg" alt="fox image"/>
+      </div>
+    </div>
+    <div class="modal__tiger modal__hide--tiger" data-js="modal_tiger">
+      <div class="modal__container">
+        <h1>Tiger photo</h1>
+        <button data-js="back_button" type="button" name="button">Back to Album 1</button>
+        <img data-js="tiger_image"src="assets/tiger.jpg" alt="tiger image"/>
+      </div>
+    </div>
+    <div class="modal__deer modal__hide--deer" data-js="modal_deer">
+      <div class="modal__container">
+        <h1>Deer photo</h1>
+        <button data-js="back_button" type="button" name="button">Back to Album 1</button>
+        <img data-js="deer_image"src="assets/deer.jpg" alt="deer image"/>
+      </div>
+    </div>
+
+    <main>
+      <h1>Album 1</h1>
+      <ul data-js="photo_list">
+
+      </ul>
+    </main>
+  </body>
+  <script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</html>
